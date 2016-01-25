@@ -20,7 +20,7 @@ setup(
     maintainer='Jacek Tomaszewski',
     maintainer_email='jacek.tomek@gmail.com',
     url='http://github.com/zlorf/django-dbsettings',
-    packages=find_packages(include=['dbsettings']),
+    packages=find_packages('dbsettings'),
     include_package_data=True,
     license='BSD',
     install_requires=(
